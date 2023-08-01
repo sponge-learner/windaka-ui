@@ -1,24 +1,26 @@
-# winui
+# windaka-ui
 
-## Project setup
-```
-npm install
-```
+## 安装
 
-### Compiles and hot-reloads for development
 ```
-npm run serve
+npm install windaka-ui
 ```
 
-### Compiles and minifies for production
+# 使用方式
+
+## 1.全局安装
+
 ```
-npm run build
+import { createApp } from 'vue'
+import App from './App.vue'
+import windaka from 'windaka-ui''
+
+const app = createApp(App)
+
+app
+    .use(ElementPlus)
+    .mount('#app')
+
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# 2.按需导入
