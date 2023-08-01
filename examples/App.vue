@@ -1,10 +1,10 @@
 <template>
   <div>组件示例</div>
-  <WdButton type='success'>按钮</WdButton>
+  <WButton type='success'>按钮</WButton>
 </template>
 
 <script lang="ts" setup>
-import { WdButton } from '~/index';
+import { WButton } from '~/index';
 
 
 </script>

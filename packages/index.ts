@@ -1,8 +1,8 @@
 import { App } from 'vue'
-import WdButton from './components/button'
+import WButton from './components/button'
 
 // 所有组件列表
-const components = [WdButton]
+const components = [WButton]
 
 // 定义 install 方法， App 作为参数
 const install = (app: App): void => {
@@ -11,7 +11,7 @@ const install = (app: App): void => {
 }
 
 export {
-    WdButton
+    WButton
 }
 
 export default {
