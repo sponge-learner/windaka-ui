@@ -1,5 +1,5 @@
 import { App } from 'vue'
-import WButton from './components/button'
+import WButton from '~/components/Button'
 
 // 所有组件列表
 const components = [WButton]
