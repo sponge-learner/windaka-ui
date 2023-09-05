@@ -29,6 +29,11 @@ windaka-ui
 ├─packages                组件源码包
 │  │  index.ts            组件入口文件
 │  │  
+│  └─assets               静态文件资源    
+│      └─static           
+│          └─css  
+│          └─js           
+│  │  
 │  └─components           组件文件夹    
 │      └─Button           单个组件文件
 │          │  Button.vue

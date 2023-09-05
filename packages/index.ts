@@ -1,8 +1,11 @@
 import { App } from 'vue'
 import WButton from '~/components/button'
+import {
+    WBaseMap
+} from '~/components/map'
 
 // 所有组件列表
-const components = [WButton]
+const components = [WButton, WBaseMap]
 
 // 定义 install 方法， App 作为参数
 const install = (app: App): void => {
@@ -11,7 +14,8 @@ const install = (app: App): void => {
 }
 
 export {
-    WButton
+    WButton,
+    WBaseMap
 }
 
 export default {
