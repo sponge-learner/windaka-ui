@@ -1,6 +1,6 @@
 {
   "name": "windaka-ui",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "private": false,
   "main": "lib/windaka-ui.umd.min.js",
   "typings": "./typings",
@@ -11,6 +11,8 @@
     "lib": "vue-cli-service build  --target lib --name windaka-ui --dest lib packages/index.ts"
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "element-plus": "^2.5.3",
     "sass": "^1.64.2",
     "sass-loader": "^13.3.2",
     "scss": "^0.2.4",

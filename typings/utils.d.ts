@@ -1,0 +1,4 @@
+import { DefineComponent } from "vue"
+export type PropsEmits<Props = {}, Emits = any> = DefineComponent<Props, {
+    emit: ((event: "update:modelValue", value: string) => void) & ((event: "change", value: string) => void) & ((event: "input", value: string) => void) & ((event: "focus", evt: FocusEvent) => void) & ((event: "blur", evt: FocusEvent) => void) & ((event: "clear") => void) & ((event: "mouseleave", evt: MouseEvent) => void) & ((event: "mouseenter", evt: MouseEvent) => void) & ((event: "keydown", evt: Event | KeyboardEvent) => void) & ((event: "compositionstart", evt: CompositionEvent) => void) & ((event: "compositionupdate", evt: CompositionEvent) => void) & ((event: "compositionend", evt: CompositionEvent) => void);
+}, {}, {}, {}, {}, {}, Emits, Emits, Emits, Emits, Emits, Emits, Emits, Emits>
